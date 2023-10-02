@@ -173,3 +173,29 @@ if 문 안에서 `else if`나 `else`로 넘어가지 않고 다른 if문을 또 
 ```
 
 첫 프로젝트를 할 때 ? : 보고 당황한적이 있었다. 조건이 `true`라면 ? 값을 `false`라면 : 값을 사용한다. 굉장히 유용하게 많이 사용되는 연산자 같다
+
+`Math`
+
+```javascript
+secretNumber = Math.trunc(Math.random() * 20) + 1;
+
+Math.trunc();
+Math.random();
+```
+
+JavaScript의 Math 함수
+
+Math.trunc
+
+- 주어진 숫자에 정수부분만 반환한다
+
+Math.random
+
+- 0 이상 1 미만의 수를 랜덤하게 반환한다
+- 기본값이 0~1 사이의 난수 이기 때문에 원하는 값에 따라 수를 곱하거나 더해주어야 한다
+
+EX)
+
+1 - 20의 난수를 원한다면
+`Math.random()*20` = 0 ~ 19
+`Math.random()*20 + 1` = 1 ~ 20
