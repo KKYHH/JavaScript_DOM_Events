@@ -2,7 +2,7 @@
 
 https://kkyhh.github.io/JavaScript_DOM_Events/
 
-<img src="../starter/guessMyNumber.png">
+<img src="./guessMyNumber.png">
 
 ---
 
